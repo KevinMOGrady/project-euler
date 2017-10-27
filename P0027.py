@@ -11,9 +11,6 @@ def is_prime(Number):
     return True
 
 MaxPrimes = 0
-# MaxProduct = 0
-SolSet = (0, 0)
-n = 0
 for a in range(-999, 1000):
     n = 0
     while is_prime(n**2 + a*n + 2):
